@@ -1,0 +1,23 @@
+{
+  "name": "luciscreid.github.io",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000l\u0000u\u0000c\u0000i\u0000s\u0000c\u0000r\u0000e\u0000i\u0000d\u0000.\u0000g\u0000i\u0000t\u0000h\u0000u\u0000b\u0000.\u0000i\u0000o\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luciscreid/luciscreid.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luciscreid/luciscreid.github.io/issues"
+  },
+  "homepage": "https://github.com/luciscreid/luciscreid.github.io#readme",
+  "dependencies": {
+    "serve": "14.0.1"
+  }
+}
