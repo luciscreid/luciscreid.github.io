@@ -1,0 +1,74 @@
+body {
+    background: #252424;
+}
+
+.cabecalho {
+ 
+    display: block;
+    justify-content: space-between;
+}
+
+.menu {
+    margin: 20px 0 20px 20px;
+
+}
+
+.menu__item {
+	display: inline-block;
+	margin: 0 0 0 15px;
+    color: white;
+}
+
+.descriçao {
+ display: flex;
+ color:white;
+}
+
+.descriçao__1 {
+    display: block;
+    width: 30%;
+    margin: 15px 0 20px 60px;
+}
+
+h2 {
+    text-align: left;
+    font-size: 25px;
+    margin: 10px 0 10px 10px;
+    color:whitesmoke;
+}
+
+h1 {
+    text-align: left;
+    font-size: 30px;
+    margin: 10px 0 10px 10px;
+
+}
+
+p {
+    text-align: left;
+    font-size: 16px;
+    margin: 10px 0 10px 10px;
+    line-height: 1.25rem;
+}
+
+button {
+    background-color: rgb(25, 190, 219);
+    font-size: 16px;
+    border-radius: 15px;
+    border: none;
+    width: 30%;
+    margin-left: 10px;
+    height: 20%;
+    color: white;
+
+}
+
+
+.descriçao__2 {
+    display: flex;
+    float: right;
+}
+
+.lista-modos{
+    float: right;
+}
