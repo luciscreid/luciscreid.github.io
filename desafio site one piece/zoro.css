@@ -115,6 +115,7 @@ p {
     -ms-flex-align: center;
     align-items: flex-end;
     flex-direction: column;
+    margin: 50px;
 }
 
 #lista-membros {
