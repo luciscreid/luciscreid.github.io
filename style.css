@@ -72,7 +72,6 @@ header p {
     background-repeat: no-repeat;
     background-size: 70%;
     background-position: right;
-    /* transform: scaleX(-1); */
     z-index: -1;
 }
 
