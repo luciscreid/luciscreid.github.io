@@ -89,6 +89,8 @@ header p {
     margin-right: auto;
 }
 
+
+
 .container-cards {
     display: flex;
     justify-content: space-evenly;
@@ -170,4 +172,19 @@ footer {
     color: #fff;
     padding: 10px;
     text-align: center;
+}
+
+@media (max-width: 1024px) {
+    .icon-perfil {
+        max-width: 45vh;
+    }
+    .container-cards {
+        flex-direction: column;
+    }
+    section {
+        width: 80%;
+    }
+    .background-image {
+        background-size: 95%;
+    }
 }
