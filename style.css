@@ -62,7 +62,7 @@ header p {
 
 /* Estilos das seções */
 .background-image {
-    background-color: darkmagenta;
+    background-color: #8b008b;
     position: fixed;
     top: 0;
     right: 0;
@@ -73,13 +73,6 @@ header p {
     background-size: 70%;
     background-position: right;
     z-index: -1;
-}
-
-section {
-    padding: 40px 0;
-    color: #fff;
-    /* ou color: white; */
-    align-items: center;
 }
 
 .icon-perfil {
@@ -96,6 +89,22 @@ section {
     margin-right: auto;
 }
 
+.container-cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    background-color: #5c005c6f;
+}
+
+section {
+    padding: 40px 0;
+    color: #fff;
+    /* ou color: white; */
+    align-items: center;
+    width: 30%;
+}
+
 section h2 {
     font-size: 24px;
     margin-bottom: 20px;
@@ -104,7 +113,6 @@ section h2 {
 }
 
 p {
-   
     text-align: center;
 }
 
