@@ -1,0 +1,131 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: #333;
+    padding: 40px 0;
+    text-align: center;
+    color: #fff;
+    /* ou color: white; */
+}
+
+.header-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.social-links a {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+/* Estilos das seções */
+.background-image {
+    background-color: darkmagenta;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url("images/desenvolvimento-background.png");
+    background-repeat: no-repeat;
+    background-size: 45%;
+    background-position: right;
+    /* transform: scaleX(-1); */
+    z-index: -1;
+}
+
+section {
+    padding: 40px 0;
+    color: #fff;
+    /* ou color: white; */
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+section ul {
+    list-style: none;
+    text-align: center;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+.languages {
+    display: none;
+}
+
+.languages.show {
+    display: block;
+}
+
+.arrow {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    transform: rotate(45deg);
+    transition: transform 0.15s ease;
+  }
+  
+  .arrow.active {
+    transform: rotate(135deg) scale(1.2);
+  }
+
+  .arrow:hover {
+    transform: rotate(135deg) scale(1.2);
+  }
+/* Estilos do rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
