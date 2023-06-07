@@ -23,3 +23,18 @@ arrows.forEach(function(arrow) {
     this.classList.remove('active');
   });
 });
+
+var frases = [
+  "Não é o cargo que se ocupa que importa, e sim o envolvimento e o comprometimento que se tem.",
+  "A genialidade é 1% inspiração e 99% transpiração.",
+  "Programadores e artistas são os únicos profissionais que têm como hobby a própria profissão."
+];
+
+function geraFraseAleatoria() {
+  var numAleatorio = Math.floor(Math.random() * frases.length);
+  var randomFrase = frases[numAleatorio];
+  var fraseAleatoriaElement = document.getElementById("fraseAleatoria");
+  fraseAleatoriaElement.textContent = randomFrase;
+}
+
+geraFraseAleatoria();
