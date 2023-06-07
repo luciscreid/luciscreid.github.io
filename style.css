@@ -21,7 +21,7 @@ body {
 /* Estilos do cabeçalho */
 header {
     background-color: #333;
-    padding: 40px 0;
+    padding: 20px 0;
     text-align: center;
     color: #fff;
     /* ou color: white; */
@@ -39,26 +39,26 @@ header h1 {
 
 header p {
     font-size: 18px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .social-links {
+    display: flex;
     margin-top: 20px;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
-a {
-    color: white;
-    text-decoration: none;
+.fa-icon {
+    width: 30px;
+    transition: transform 0.20s;
 }
 
-a:hover {
-    text-decoration: underline;
+.fa-icon:hover {
+    transform: scale(1.4);
 }
 
-.social-links a {
-    font-size: 24px;
-    margin-right: 10px;
-}
+
 
 /* Estilos das seções */
 .background-image {
@@ -70,7 +70,7 @@ a:hover {
     left: 0;
     background-image: url("https://www.vivaz.digital/wp-content/uploads/2022/02/desenvolvimento-websites-vivaz-digital-icone.png");
     background-repeat: no-repeat;
-    background-size: 45%;
+    background-size: 70%;
     background-position: right;
     /* transform: scaleX(-1); */
     z-index: -1;
@@ -80,25 +80,59 @@ section {
     padding: 40px 0;
     color: #fff;
     /* ou color: white; */
+    align-items: center;
+}
+
+.icon-perfil {
+    position: static;
+    top: 0;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #ea658a;
+    border-width: 3.5px;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 section h2 {
     font-size: 24px;
     margin-bottom: 20px;
     text-align: center;
+    color: #fff;
+}
+
+p {
+   
+    text-align: center;
 }
 
 section ul {
     list-style: none;
     text-align: center;
+    color: #fff;
 }
 
 section ul li {
     margin-bottom: 10px;
+    color: #fff;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.languages {
+
+    color: #fff;
 }
 
 .languages {
     display: none;
+    color: #fff;
 }
 
 .languages.show {
@@ -113,15 +147,16 @@ section ul li {
     border-right: 2px solid white;
     transform: rotate(45deg);
     transition: transform 0.15s ease;
-  }
+}
 
-  .arrow.active {
+.arrow.active {
     transform: rotate(135deg) scale(1.2);
-  }
+}
 
-  .arrow:hover {
+.arrow:hover {
     transform: rotate(135deg) scale(1.2);
-  }
+}
+
 /* Estilos do rodapé */
 footer {
     background-color: #333;
